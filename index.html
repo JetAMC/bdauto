@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet"> 
+    <script src="js/gallery.js"></script> 
 </head>
 <body>  
 <div class="header">
@@ -225,132 +226,105 @@
 <div class="gallery">
     <div class="gallery__container container">
         <div class="gallery__title">
-            <h2>Галерея??</h2>
+            <h2>Примеры нашей работы</h2>
         </div>
-        <div class="row">
+        <div class="gallery__row">
             <!-- first line -->
-            <div class="column">
-              <img src="img_nature.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            <div class="gallery__column">
+            <img src="images/gallery/thumbs/e60-before-small.jpg" onclick="openModal();currentSlide(1)" class="gallery__hover-shadow cursor">
             </div>
-            <div class="column">
-              <img src="img_snow.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            <div class="gallery__column">
+            <img src="images/gallery/thumbs/e60-after-small.jpg" onclick="openModal();currentSlide(2)" class="gallery__hover-shadow cursor">
             </div>
-            <div class="column">
-              <img src="img_mountains.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+            <div class="gallery__column">
+            <img src="images/gallery/thumbs/volvo-before-small.jpg" onclick="openModal();currentSlide(3)" class="gallery__hover-shadow cursor">
             </div>
-            <div class="column">
-              <img src="img_lights.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            <div class="gallery__column">
+            <img src="images/gallery/thumbs/volvo-after-small.jpg" onclick="openModal();currentSlide(4)" class="gallery__hover-shadow cursor">
             </div>
             <!-- second line -->
-            <div class="column">
-                <img src="img_nature.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+            <div class="gallery__column">
+                <img src="images/gallery/thumbs/eclass-before-small.jpg" onclick="openModal();currentSlide(5)" class="gallery__hover-shadow cursor">
             </div>
-            <div class="column">
-                <img src="img_snow.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+            <div class="gallery__column">
+                <img src="images/gallery/thumbs/eclass-after-small.jpg" onclick="openModal();currentSlide(6)" class="gallery__hover-shadow cursor">
             </div>
-            <div class="column">
-                <img src="img_mountains.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+            <div class="gallery__column">
+                <img src="images/gallery/thumbs/e39-before-small.jpg" onclick="openModal();currentSlide(7)" class="gallery__hover-shadow cursor">
             </div>
-            <div class="column">
-                <img src="img_lights.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+            <div class="gallery__column">
+                <img src="images/gallery/thumbs/e39-after-small.jpg" onclick="openModal();currentSlide(8)" class="gallery__hover-shadow cursor">
             </div>
             <!-- third line -->
-            <div class="column">
-                <img src="img_nature.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+            <div class="gallery__column">
+                <img src="images/gallery/thumbs/x5e70-before-small.jpg" onclick="openModal();currentSlide(9)" class="gallery__hover-shadow cursor">
             </div>
-            <div class="column">
-                <img src="img_snow.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+            <div class="gallery__column">
+                <img src="images/gallery/thumbs/x5e70-after-small.jpg" onclick="openModal();currentSlide(10)" class="gallery__hover-shadow cursor">
             </div>
-            <div class="column">
-                <img src="img_mountains.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+            <div class="gallery__column">
+                <img src="images/gallery/thumbs/smth-before-small.jpg" onclick="openModal();currentSlide(11)" class="gallery__hover-shadow cursor">
             </div>
-            <div class="column">
-                <img src="img_lights.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+            <div class="gallery__column">
+                <img src="images/gallery/thumbs/smth-after-small.jpg" onclick="openModal();currentSlide(12)" class="gallery__hover-shadow cursor">
             </div>
         </div>
-        <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
-                <div class="mySlides">
-                    <img src="img_nature_wide.jpg" style="width:100%">
+        <div id="gallery__myModal" class="gallery__modal">
+            <span class="gallery__close cursor" onclick="closeModal()">&times;</span>
+            <div class="gallery__modal-content">
+                <!-- first line -->
+                <div class="gallery__mySlides">
+                    <img src="images/gallery/e60-before.jpg">
                 </div>
-                <div class="mySlides">
-                    <img src="img_snow_wide.jpg" style="width:100%">
+                <div class="gallery__mySlides">
+                    <img src="images/gallery/e60-after.jpg">
                 </div>
-                <div class="mySlides">
-                    <img src="img_mountains_wide.jpg" style="width:100%">
+                <div class="gallery__mySlides">
+                    <img src="images/gallery/volvo-before.jpg">
                 </div>
-                <div class="mySlides">
-                    <img src="img_lights_wide.jpg" style="width:100%">
+                <div class="gallery__mySlides">
+                    <img src="images/gallery/volvo-after.jpg">
                 </div>
-                <div class="mySlides">
-                    <img src="img_nature_wide.jpg" style="width:100%">
+                <!-- second line -->
+                <div class="gallery__mySlides">
+                    <img src="images/gallery/eclass-before.jpg">
                 </div>
-                <div class="mySlides">
-                    <img src="img_snow_wide.jpg" style="width:100%">
+                <div class="gallery__mySlides">
+                    <img src="images/gallery/eclass-after.jpg">
                 </div>
-                <div class="mySlides">
-                    <img src="img_mountains_wide.jpg" style="width:100%">
+                <div class="gallery__mySlides">
+                    <img src="images/gallery/e39-before.jpg">
                 </div>
-                <div class="mySlides">
-                    <img src="img_lights_wide.jpg" style="width:100%">
+                <div class="gallery__mySlides">
+                    <img src="images/gallery/e39-after.jpg">
                 </div>
-                <div class="mySlides">
-                    <img src="img_nature_wide.jpg" style="width:100%">
+                <!-- third line -->
+                <div class="gallery__mySlides">
+                    <img src="images/gallery/x5e70-before.jpg">
                 </div>
-                <div class="mySlides">
-                    <img src="img_snow_wide.jpg" style="width:100%">
+                <div class="gallery__mySlides">
+                    <img src="images/gallery/x5e70-after.jpg">
                 </div>
-                <div class="mySlides">
-                    <img src="img_mountains_wide.jpg" style="width:100%">
+                <div class="gallery__mySlides">
+                    <img src="images/gallery/smth-before.jpg">
                 </div>
-                <div class="mySlides">
-                    <img src="img_lights_wide.jpg" style="width:100%">
+                <div class="gallery__mySlides">
+                    <img src="images/gallery/smth-after.jpg">
                 </div>
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <a class="gallery__prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="gallery__next" onclick="plusSlides(1)">&#10095;</a>
             </div>
         </div>
     </div>
 </div>
-<script>
-    function openModal() {
-      document.getElementById("myModal").style.display = "block";
-    }
-    
-    function closeModal() {
-      document.getElementById("myModal").style.display = "none";
-    }
-    
-    var slideIndex = 1;
-    showSlides(slideIndex);
-    
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      var captionText = document.getElementById("caption");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      captionText.innerHTML = dots[slideIndex-1].alt;
-    }
-    </script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+<!-- <script>
+$(".gallery__modal").click( function() {
+   $(".gallery__modal").fadeOut();
+});
+</script> chtobi zakrivalasj pri nazhhatii, ubratj tenj i sdelatj krasivee-->
+
 </body>
 
 </html>
