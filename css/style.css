@@ -102,11 +102,10 @@ input {
 }
 .main-block__utp p {
     margin: 0;
-    font-size: 40px; /*font-size: 35px; */
+    font-size: 35px; /*font-size: 40px; */
 }
 .main-block__offer h1 {
-    font-size: 50px; /*font-size: 45px; */
-    text-align: center;
+    font-size: 45px; /*font-size: 50px; */
 }
 /*** MAIN CONTENT ***/
 .main-block__main-content {
@@ -407,7 +406,7 @@ input {
     justify-content: center;
 }
 .gallery__column {
-    width: 290px;
+    width: 295px;
     padding: 0 8px;
     margin-bottom: 15px;
 }
@@ -454,6 +453,12 @@ input {
     text-decoration: none;
     cursor: pointer;
 }
+.gallery img {
+    margin-bottom: -4px;
+    width: 100%;
+    cursor: pointer;
+    border: 7px solid #1e1e1e;
+}
 .gallery__mySlides {
     display: none;
 }
@@ -487,10 +492,46 @@ input {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-.gallery img {
-    margin-bottom: -4px;
-    width: 100%;
-    cursor: pointer;
-    border: 7px solid #1e1e1e;
+/********************************************** LAST BLOCK *****/
+.last-block {
+    background: #fff;
+    position: relative;
 }
-/********************************************** MAP *****/
+.last-block a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.last-block p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.last-block__contact {
+    border: 1px solid #000;
+    position: absolute;
+    top: 40px;
+    left: 20%;
+    background: rgba(0,0,0, 0.8);
+    padding: 20px;
+    color: #fff;
+}
+.last-block__contact img {
+    width: 30px;
+    margin-right: 10px;
+}
+.last-block__contact span {
+    font-size: 18px;
+    display: block;
+}
+.contacts {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+/********************************************** FOOTER *****/
+.footer {
+    height: 40px;
+    background: #1e1e1e;
+}
