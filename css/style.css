@@ -379,6 +379,28 @@ input {
     margin-bottom: 40px;
     color: #fff;
 }
+.gallery__cta-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gallery__cta-text {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.gallery__cta-button button {
+    background: #67c067;
+    border: 0;
+    font-size: 20px;
+    /* font-weight: 700; */
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    padding: 15px 15px;
+    color: #fff;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
 .gallery__row {
     display: flex;
     flex-wrap: wrap;
@@ -387,7 +409,7 @@ input {
 .gallery__column {
     width: 290px;
     padding: 0 8px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 /*** The Modal (background) ***/
 .gallery__modal {
@@ -418,6 +440,13 @@ input {
     right: 25px;
     font-size: 35px;
     font-weight: bold;
+    cursor: pointer;
+}
+.gallery__close-area {
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 .gallery__close:hover,
 .gallery__close:focus {
@@ -430,9 +459,7 @@ input {
 }
 .gallery__mySlides img {
     width: 100%;
-}
-.cursor {
-    cursor: pointer;
+    border: 0;
 }
 /*** Next & previous buttons ***/
 .gallery__prev,
@@ -446,26 +473,24 @@ input {
     color: white;
     font-weight: bold;
     font-size: 20px;
-    transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
     background-color: rgba(0, 0, 0, 0.8);
+}
+.gallery__prev:hover, 
+.gallery__next:hover {
+    color: #999;
 }
 /*** Position the "next button" to the right ***/
 .gallery__next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-img {
+.gallery img {
     margin-bottom: -4px;
-}
-.gallery__hover-shadow {
     width: 100%;
+    cursor: pointer;
+    border: 7px solid #1e1e1e;
 }
-img.gallery__hover-shadow {
-    transition: 0.3s;
-}
-.gallery__hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+/********************************************** MAP *****/

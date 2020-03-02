@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title>Baltic Detailing</title><!-- added comment -->
+    <title>Baltic Detailing</title>
     <meta charset=utf-8>
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -219,58 +219,59 @@
             </div>
         </div>
         <div class="reviews__button">
-            <a href="https://www.facebook.com/pg/balticdetailing/reviews/?ref=page_internal" target="_blank">Больше отзывов можно посмотреть тут</a>
+            <a href="https://www.facebook.com/pg/balticdetailing/reviews/?ref=page_internal" target="_blank">Больше отзывов можно посмотреть тут</a><!-- а надо ли?-->
         </div>
     </div>
 </div>
 <div class="gallery">
     <div class="gallery__container container">
         <div class="gallery__title">
-            <h2>Примеры нашей работы</h2>
+            <h2>Примеры наших работ</h2>
         </div>
         <div class="gallery__row">
             <!-- first line -->
             <div class="gallery__column">
-            <img src="images/gallery/thumbs/e60-before-small.jpg" onclick="openModal();currentSlide(1)" class="gallery__hover-shadow cursor">
+            <img src="images/gallery/thumbs/e60-before-small.jpg" onclick="openModal();currentSlide(1)">
             </div>
             <div class="gallery__column">
-            <img src="images/gallery/thumbs/e60-after-small.jpg" onclick="openModal();currentSlide(2)" class="gallery__hover-shadow cursor">
+            <img src="images/gallery/thumbs/e60-after-small.jpg" onclick="openModal();currentSlide(2)">
             </div>
             <div class="gallery__column">
-            <img src="images/gallery/thumbs/volvo-before-small.jpg" onclick="openModal();currentSlide(3)" class="gallery__hover-shadow cursor">
+            <img src="images/gallery/thumbs/volvo-before-small.jpg" onclick="openModal();currentSlide(3)">
             </div>
             <div class="gallery__column">
-            <img src="images/gallery/thumbs/volvo-after-small.jpg" onclick="openModal();currentSlide(4)" class="gallery__hover-shadow cursor">
+            <img src="images/gallery/thumbs/volvo-after-small.jpg" onclick="openModal();currentSlide(4)">
             </div>
             <!-- second line -->
             <div class="gallery__column">
-                <img src="images/gallery/thumbs/eclass-before-small.jpg" onclick="openModal();currentSlide(5)" class="gallery__hover-shadow cursor">
+                <img src="images/gallery/thumbs/eclass-before-small.jpg" onclick="openModal();currentSlide(5)">
             </div>
             <div class="gallery__column">
-                <img src="images/gallery/thumbs/eclass-after-small.jpg" onclick="openModal();currentSlide(6)" class="gallery__hover-shadow cursor">
+                <img src="images/gallery/thumbs/eclass-after-small.jpg" onclick="openModal();currentSlide(6)">
             </div>
             <div class="gallery__column">
-                <img src="images/gallery/thumbs/e39-before-small.jpg" onclick="openModal();currentSlide(7)" class="gallery__hover-shadow cursor">
+                <img src="images/gallery/thumbs/e39-before-small.jpg" onclick="openModal();currentSlide(7)">
             </div>
             <div class="gallery__column">
-                <img src="images/gallery/thumbs/e39-after-small.jpg" onclick="openModal();currentSlide(8)" class="gallery__hover-shadow cursor">
+                <img src="images/gallery/thumbs/e39-after-small.jpg" onclick="openModal();currentSlide(8)">
             </div>
             <!-- third line -->
             <div class="gallery__column">
-                <img src="images/gallery/thumbs/x5e70-before-small.jpg" onclick="openModal();currentSlide(9)" class="gallery__hover-shadow cursor">
+                <img src="images/gallery/thumbs/x5e70-before-small.jpg" onclick="openModal();currentSlide(9)">
             </div>
             <div class="gallery__column">
-                <img src="images/gallery/thumbs/x5e70-after-small.jpg" onclick="openModal();currentSlide(10)" class="gallery__hover-shadow cursor">
+                <img src="images/gallery/thumbs/x5e70-after-small.jpg" onclick="openModal();currentSlide(10)">
             </div>
             <div class="gallery__column">
-                <img src="images/gallery/thumbs/smth-before-small.jpg" onclick="openModal();currentSlide(11)" class="gallery__hover-shadow cursor">
+                <img src="images/gallery/thumbs/smth-before-small.jpg" onclick="openModal();currentSlide(11)">
             </div>
             <div class="gallery__column">
-                <img src="images/gallery/thumbs/smth-after-small.jpg" onclick="openModal();currentSlide(12)" class="gallery__hover-shadow cursor">
+                <img src="images/gallery/thumbs/smth-after-small.jpg" onclick="openModal();currentSlide(12)">
             </div>
         </div>
         <div id="gallery__myModal" class="gallery__modal">
-            <span class="gallery__close cursor" onclick="closeModal()">&times;</span>
+            <div class="gallery__close-area" onclick="closeModal()"></div>
+            <span class="gallery__close" onclick="closeModal()">&times;</span>
             <div class="gallery__modal-content">
                 <!-- first line -->
                 <div class="gallery__mySlides">
@@ -311,19 +312,30 @@
                 <div class="gallery__mySlides">
                     <img src="images/gallery/smth-after.jpg">
                 </div>
-                <a class="gallery__prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="gallery__next" onclick="plusSlides(1)">&#10095;</a>
+                <div class="gallery__buttons">
+                    <a class="gallery__prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="gallery__next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+        </div>
+        <div class="gallery__cta-block">
+            <div class="gallery__cta-text">
+                <p>Оставьте заявку сегодня и мы после полировки нанесем защитное покрытие в подарок!</p><!--нужен мощный CTA-->
+            </div>
+            <div class="gallery__cta-button">
+                <button>Хочу такой же результат</button>
             </div>
         </div>
     </div>
 </div>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-
-<!-- <script>
-$(".gallery__modal").click( function() {
-   $(".gallery__modal").fadeOut();
-});
-</script> chtobi zakrivalasj pri nazhhatii, ubratj tenj i sdelatj krasivee-->
+<div class="map">
+    <div class="map__contact">
+        Свяжитесь с нами
+    </div>
+    <div class="map__iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4347.753841262923!2d24.203034933175356!3d56.985168227135595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eece92e918a4fb%3A0x44ee3d2c72c143cf!2sLizuma%20iela%201%2C%20Vidzemes%20priek%C5%A1pils%C4%93ta%2C%20R%C4%ABga%2C%20LV-1006!5e0!3m2!1sru!2slv!4v1583133933651!5m2!1sru!2slv" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+</div>
 
 </body>
 
