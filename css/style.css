@@ -12,7 +12,7 @@ body {
 }
 .container {
     max-width: 1180px;
-    /* padding: 0 20px; */
+    padding: 0 20px;
     margin: 0 auto;
     /* border: 1px solid #000; */
 }
@@ -241,7 +241,6 @@ input {
 /*** SECOND BENEFIT ***/
 .why__second-benefit {
     max-width: 470px;
-    margin-right: 20px;
     box-shadow: 5px 5px 8px 0 rgba(0,0,0,0.5);
 }
 .why__second-image {
@@ -512,7 +511,7 @@ input {
     border: 1px solid #000;
     position: absolute;
     top: 40px;
-    left: 20%;
+    /* left: 20%; */
     background: rgba(0,0,0, 0.8);
     padding: 20px;
     color: #fff;
@@ -532,6 +531,11 @@ input {
 }
 /********************************************** FOOTER *****/
 .footer {
-    height: 40px;
     background: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
 }
