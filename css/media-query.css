@@ -1,0 +1,46 @@
+@media screen and (max-width: 1250px) {
+    /* .how__iframe {
+        width: 600px;
+        height: 300px;
+    } */
+}
+@media screen and (max-width: 1180px) {
+    .about-us__card-area {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 960px) {
+    .main-block__offer h1 {
+        font-size: 40px;
+    }
+    .main-block__utp p {
+        font-size: 30px;
+    }
+    .main-block__main-content {
+        flex-direction: column;
+    }
+    .main-block__result {
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .header__address {
+        display: none;
+    }
+    .main-block__offer h1 {
+        font-size: 35px;
+    }
+    .main-block__utp p {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .why__benefits-area {
+        flex-wrap: wrap;
+    }
+    .why__first-benefit {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
