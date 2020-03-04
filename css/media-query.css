@@ -8,6 +8,9 @@
     .about-us__card-area {
         flex-wrap: wrap;
     }
+    .about-us__card {
+        margin-bottom: 40px;
+    }
 }
 @media screen and (max-width: 960px) {
     .main-block__offer h1 {
@@ -44,3 +47,112 @@
         margin-bottom: 20px;
     }
 }
+@media screen and (max-width: 760px) {
+    .main-block__offer h1 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .main-block__arrow img {
+        display: none;
+    }
+    .main-block__before {
+        margin-bottom: 80px;
+    }
+    .main-block__after {
+        padding: 0;
+    }
+    .main-block__result {
+        display: block;
+    }
+    .main-block__time {
+        top: -7px;
+        left: -20px;
+        border-left: 7px solid #67c067;
+        padding: 20px 0 20px 10px;
+    }
+    .about-us__card-area {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-us__two-cards {
+        display: block;
+    }
+    .about-us__card {
+        margin-bottom: 40px;
+    }
+    .last-block__contact {
+        display: none;
+    }
+    .gallery__container {
+        padding: 40px 10px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .header {
+        padding: 20px 0px 0px 0px;
+    }
+    .header__container {
+        flex-direction: column;
+    }
+    .header__contact {
+        flex-direction: column;
+    }
+    .header__logo {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .header__contact div {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .how__container {
+        padding: 40px 20px;
+    }
+    .reviews__single-iframe {
+        margin-right: 0;
+    }
+    .reviews__iframes {
+        display: block;
+        margin-bottom: 40px;
+    }
+    .reviews__single-iframe iframe {
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 175px;
+    }
+}
+/* @media screen and (max-width: 320px) {
+    .reviews__single-iframe {
+        margin-right: 0;
+    }
+    .reviews__iframes {
+        display: block;
+        margin-bottom: 40px;
+    }
+    .reviews__single-iframe .reviews__first {
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 330px;
+    }
+    .reviews__single-iframe .reviews__second {
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 260px;
+    }
+    .reviews__single-iframe .reviews__third {
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 180px;
+    }
+    .reviews__single-iframe .reviews__fourth {
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 200px;
+    }
+} */

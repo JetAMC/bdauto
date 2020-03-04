@@ -307,7 +307,7 @@ input {
     color: #fff;
 }
 .about-us__container {
-    padding: 40px 0;
+    padding: 40px 10px;
 }
 .about-us__card-area {
     display: flex;
@@ -352,7 +352,7 @@ input {
 }
 /********************************************** GALLERY *****/
 .gallery {
-    background: url('../images/benefits-bg2.jpg') no-repeat center;
+    background: url('../images/gallery-bg.jpg') no-repeat center;
     background-size: cover;
 }
 .gallery__container {
