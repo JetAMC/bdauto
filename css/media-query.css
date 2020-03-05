@@ -51,6 +51,9 @@
         margin-right: 0;
         margin-bottom: 20px;
     }
+    .why__second-benefit {
+        margin-bottom: 20px;
+    }
 }
 @media screen and (max-width: 760px) {
     .main-block__offer h1 {
