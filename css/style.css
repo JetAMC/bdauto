@@ -298,7 +298,17 @@ input {
     height: 100%;
 }
 .how__text-process {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
+    max-width: 500px;
+}
+.how__image {
+    background: url('../images/process.jpeg') no-repeat right;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+}
+.how__process {
+    display: flex;
 }
 /********************************************** ABOUT US *****/
 .about-us {
@@ -474,6 +484,12 @@ input {
 .gallery__next {
     right: 0;
     border-radius: 3px 0 0 3px;
+}
+.gallery__cta-text p {
+    font-size: 24px;
+}
+.gallery__cta-text span {
+    font-weight: 700;
 }
 /********************************************** LAST BLOCK *****/
 .last-block {
