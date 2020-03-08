@@ -188,6 +188,9 @@ input {
     margin-bottom: 5px;
     cursor: pointer;
 }
+.main-block__button:hover {
+    background: #347e34;
+}
 /********************************************** WHY *****/
 .why {
     background: #fff;
@@ -382,6 +385,9 @@ input {
     color: #fff;
     margin-bottom: 5px;
     cursor: pointer;
+}
+.gallery__cta-button button:hover {
+    background: #347e34;
 }
 .gallery__row {
     display: flex;
