@@ -203,7 +203,8 @@ input {
 }
 .why__benefits-area {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    border: 1px solid #000;
 }
 .why__benefits-area p {
     font-size: 20px;
@@ -227,7 +228,7 @@ input {
 /*** FIRST BENEFIT ***/
 .why__first-benefit {
     max-width: 470px;
-    margin-right: 20px;
+    margin-right: 5px;
     box-shadow: 5px 5px 8px 0 rgba(0,0,0,0.5);
 }
 .why__first-image {
@@ -236,13 +237,24 @@ input {
     width: 100%;
     height: 450px;
 }
-
 /*** SECOND BENEFIT ***/
 .why__second-benefit {
     max-width: 470px;
     box-shadow: 5px 5px 8px 0 rgba(0,0,0,0.5);
 }
 .why__second-image {
+    background: url('../images/svet_lada.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    margin-right: 5px;
+    height: 450px;
+}
+/*** THIRD BENEFIT ***/
+.why__third-benefit {
+    max-width: 470px;
+    box-shadow: 5px 5px 8px 0 rgba(0,0,0,0.5);
+}
+.why__third-image {
     background: url('../images/svet_lada.jpg') no-repeat center;
     background-size: cover;
     width: 100%;
@@ -301,7 +313,17 @@ input {
     height: 100%;
 }
 .how__text-process {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
+    max-width: 500px;
+}
+.how__image {
+    background: url('../images/process.jpeg') no-repeat right;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+}
+.how__process {
+    display: flex;
 }
 /********************************************** ABOUT US *****/
 .about-us {
@@ -480,6 +502,12 @@ input {
 .gallery__next {
     right: 0;
     border-radius: 3px 0 0 3px;
+}
+.gallery__cta-text p {
+    font-size: 24px;
+}
+.gallery__cta-text span {
+    font-weight: 700;
 }
 /********************************************** LAST BLOCK *****/
 .last-block {

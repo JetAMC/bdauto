@@ -11,6 +11,11 @@
     .about-us__card {
         margin-bottom: 40px;
     }
+    .how__process {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media screen and (max-width: 960px) {
     .main-block__offer h1 {
@@ -44,6 +49,9 @@
     }
     .why__first-benefit {
         margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .why__second-benefit {
         margin-bottom: 20px;
     }
 }
