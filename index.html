@@ -1,3 +1,6 @@
+<?php 
+include('../1ncludes/functions.php');
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -343,7 +346,7 @@
                 <p><span>Хотите такой же результат ?</span> Оставьте заявку и мы произведем полировку фар, а также нанесем защитное покрытие в подарок!</p><!--нужен мощный CTA-->
             </div>
             <div class="gallery__cta-button">
-                <button>Оставить заявку</button>
+                <button id="button1" class="button3">Оставить заявку</button>
             </div>
         </div>
     </div>
@@ -386,8 +389,52 @@
         </div>
     </div>
 </div>
+<!-- POP UP -->
+<div class="bg" style="display: none;">
+    a</div>
+    <div class="pop_up" style="display: none;">
+                <img src="images/close.png" class="close" />
+                
+                <h3>Aizpildiet pieteikuma formu</h3>
+                <p>Mūsu menedžeris atbildēs Jums uz visiem jautājumiem.
+                </p>
+    
+                <form id="forms1" class="forms" action="order.php" method="POST" >
+                    <input type="text" id="Editbox1" name="Editbox1" placeholder="Имя:" value="" required />
+                    <input type="text" id="Editbox2" name="Editbox2" placeholder="Номер телефона:" value=""  required />
+                    <input type="text" id="Editbox3" name="Editbox3" placeholder="Марка и модель авто:" value=""  required />
+
+                    <input type="hidden" id="Editbox4" name="Editbox4" value="<?php echo $utm_source; ?>">
+                    <input type="hidden" id="Editbox5" name="Editbox5" value="<?php echo $utm_medium; ?>">
+                    <input type="hidden" id="Editbox6" name="Editbox6" value="<?php echo $utm_campaign; ?>">
+                    <input type="hidden" id="Editbox7" name="Editbox7" value="Free legal advice">
+
+                    <input class="button2" id="button" type="submit" name="submit" value="Schedule an appointment" style="" />
+                </form>
+                <p style="margin: 0; padding: 0; font-size: 12px;">Garantējam informācijas konfidencialitāti</p>
+    </div>
 <!-- LOADING JAVASCRIPT -->
 <script src="js/gallery.js"></script> 
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+<script>
+    $(".open").click( function() {
+       $(".bg").fadeIn(500);
+       $(".pop_up").fadeIn(800);
+    });
+    $("#button1").click( function() {
+       $(".bg").fadeIn(500);
+       $(".pop_up").fadeIn(800);
+    });
+    $(".bg").click( function() {
+       $(".bg").fadeOut(700);
+       $(".pop_up").fadeOut(400);
+    });
+    $(".close").click( function() {
+       $(".bg").fadeOut(700);
+       $(".pop_up").fadeOut(400);
+    });
+</script>
 </body>
 
 </html>
