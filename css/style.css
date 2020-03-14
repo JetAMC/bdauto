@@ -29,9 +29,6 @@ h1, h2, h3, h4, h5, h6 {
 h3 {
     font-size: 25px;
 }
-form {
-    text-align: center;
-}
 input {
     border-radius: 4px;
     font-size: 15px;
@@ -185,11 +182,26 @@ input {
     width: 100%;
     padding: 15px 0;
     color: #fff;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     cursor: pointer;
 }
 .main-block__button:hover {
     background: #347e34;
+}
+.main-block__checkbox {
+    display: flex;
+    align-items: center;
+}
+.main-block__checkbox input {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.main-block__checkbox a {
+    text-decoration: underline;
+    cursor: pointer;
 }
 /********************************************** WHY *****/
 .why {
@@ -642,3 +654,20 @@ input {
 }
 
 .pop_up p {padding: 0; margin: 20px 0; font-size: 15px; line-height: 17px; color: #666666;}
+.pop_up2 {
+	width: 340px;
+	padding: 20px;
+	height: 360px;
+	background: #fff;
+	font-size: 11px;
+	position: fixed; top: 50%; margin-top: -170px;
+	left: 50%; margin-left: -150px;
+	z-index: 2001;
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari, Chrome */
+	border-radius: 10px; /* CSS3 */
+	text-aAZAalign: left;
+}
+.pop_up2 p {
+	font-size: 13px;
+}
