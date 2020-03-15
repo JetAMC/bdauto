@@ -301,12 +301,26 @@ input {
 .process__numbers p {
     margin: 0;
 }
+.process__small-text p {
+    font-size: 17px;
+}
 .process__text-area {
     padding-left: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: -4px;
+    margin-top: -6px;
+}
+.process__advice {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.process__advice p {
+    font-weight: 700;
+    font-size: 20px;
 }
 /********************************************** HOW *****/
 .how {
@@ -354,7 +368,7 @@ input {
     margin-bottom: 5px;
     cursor: pointer;
 }
-.how__button-area button:hover {
+.how__cta-area button:hover {
     background: #347e34;
 }
 /********************************************** ABOUT US *****/
@@ -542,7 +556,47 @@ input {
 }
 /********************************************** SOCIAL CONTACT *****/
 .social-contact {
-    height: 400px;
+    background: url('../images/icons/bg.jpg');
+}
+.social-contact__container {
+    padding: 80px 0;
+}
+.social-contact__main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social-contact__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.social-contact__title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.social-contact__title span {
+    font-weight: 700;
+}
+.social-contact__title p {
+    font-size: 25px;
+    margin: 0;
+}
+.social-contact__links div {
+    margin-right: 15px;
+}
+.social-contact img {
+    width: 80px;
+}
+.social-contact__phone a {
+    background: #67c067;
+    font-size: 30px;
+    border-radius: 4px;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
 }
 /********************************************** LAST BLOCK *****/
 .last-block {

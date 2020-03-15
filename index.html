@@ -193,9 +193,12 @@ include('../1ncludes/functions.php');
                 </div>
             </div>
         </div>
+        <div class="process__advice">
+            <p>По опыту наших мастеров, самая надежная защита это защитная пленка. Фары остаются без сколов и царапин на протяжении пяти? лет.</p>
+        </div>
     </div>
 </div>
-<div class="how"> <!-- STRONG CTA BLOCK -->
+<div class="how">
     <div class="how__container container">
         <div class="how__title">
             <h2>Посмотрите видео как происходит полировка</h2>
@@ -207,7 +210,7 @@ include('../1ncludes/functions.php');
         </div>
         <div class="how__cta-area">
             <p><span>Запишитесь на полировку фар</span> и всего за 1 час фары на вашем автомобиле станут как новые!</p>
-            <button class="how__button" id="button">Записаться на полировку</button>
+            <button class="how__button" id="button2">Записаться на полировку</button>
         </div>
     </div>
 </div>
@@ -395,13 +398,30 @@ include('../1ncludes/functions.php');
                 <p><span>Хотите такой же результат ?</span> Оставьте заявку и мы произведем полировку фар, а также нанесем защитное покрытие в подарок!</p><!--нужен мощный CTA-->
             </div>
             <div class="gallery__cta-button">
-                <button id="button">Оставить заявку</button>
+                <button id="button1">Оставить заявку</button>
             </div>
         </div>
     </div>
 </div>
 <div class="social-contact">
-
+    <div class="social-contact__container container">
+        <div class="social-contact__main-block">
+            <div class="social-contact__title">
+                <p><span>Остались вопросы?</span> Смело обращайтесь к нам и наш вежливый консультант ответит на них.</p>
+            </div>
+            <div class="social-contact__links">
+                <div class="social-contact__phone">
+                    <a href="tel:+371 259-259-77">+371 259-259-77</a>
+                </div>
+                <div class="social-contact__messenger">
+                    <a href="https://m.me/balticdetailing/"><img src="images/icons/messenger.png"></a>
+                </div>
+                <div class="social-contact__whatsap">
+                    <a href="https://wa.me/37125925977"><img src="images/icons/whatsapp.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="last-block">
     <div class="last-block__container container">
@@ -499,18 +519,14 @@ include('../1ncludes/functions.php');
        $(".bg").fadeIn(500);
        $(".pop_up").fadeIn(800);
     });
-    $("#button").click( function() {
+    $("#button1, #button2").click( function() {
        $(".bg").fadeIn(500);
        $(".pop_up").fadeIn(800);
     });
-    $(".bg").click( function() {
+    $(".bg, .close").click( function() {
        $(".bg").fadeOut(700);
        $(".pop_up").fadeOut(400);
        $(".pop_up2").fadeOut(400);
-    });
-    $(".close").click( function() {
-       $(".bg").fadeOut(700);
-       $(".pop_up").fadeOut(400);
     });
 </script>
 </body>
