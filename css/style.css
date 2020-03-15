@@ -51,12 +51,12 @@ input {
 }
 .header a {
     text-decoration: none;
-    color: #000; /* color:#67c067; */
+    color: #000;
     font-size: 20px;
 }
 .header__languages .active {
     font-weight: 700;
-    color: #000; /* color: #67c067; */
+    color: #000;
 }
 .header__container {
     display: flex;
@@ -160,7 +160,6 @@ input {
     padding: 20px;
 }
 .main-block__form-area h3 {
-    /* margin: 0; */
     margin-bottom: 20px;
 }
 .main-block__form-area span {
@@ -176,7 +175,6 @@ input {
     background: #67c067;
     border: 0;
     font-size: 20px;
-    /* font-weight: 700; */
     font-family: 'Roboto', sans-serif;
     border-radius: 4px;
     width: 100%;
@@ -216,7 +214,6 @@ input {
 .why__benefits-area {
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
 }
 .why__benefits-area p {
     font-size: 20px;
@@ -272,40 +269,51 @@ input {
     width: 100%;
     height: 450px;
 }
+/********************************************** PROCESS *****/
+.process {
+    background: url('../images/process-bg.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+.process__container {
+    padding: 40px 0;
+}
+.process__main-area {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.process__title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.process__card {
+    padding: 10px;
+    display: flex;
+}
+.process__numbers {
+    font-size: 60px;
+    font-weight: 700;
+    color: #67c067;
+    height: 85px;
+    padding-right: 10px;
+    border-right: 7px solid #67c067;
+}
+.process__numbers p {
+    margin: 0;
+}
+.process__text-area {
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -4px;
+}
 /********************************************** HOW *****/
 .how {
     background: url('../images/icons/bg.jpg');
 }
 .how__container {
     padding: 40px 70px;
-}
-.how__process-title p {
-    font-size: 18px;
-}
-.how__list ol {
-    color: #67c067;
-    font-weight: 700;
-    font-size: 18px;
-}
-.how__list li {
-    margin-bottom: 15px;
-}
-.how__list span {
-    color: #000;
-    font-weight: 300;
-}
-.how__button {
-    background: #67c067;
-    border: 0;
-    font-size: 20px;
-    /* font-weight: 700; */
-    font-family: 'Roboto', sans-serif;
-    border-radius: 4px;
-    width: 250px;
-    padding: 15px;
-    color: #fff;
-    margin-bottom: 5px;
-    cursor: pointer;
 }
 .how__video-process {
     position: relative;
@@ -324,18 +332,30 @@ input {
     width: 100%;
     height: 100%;
 }
-.how__text-process {
-    /* border: 1px solid #000; */
-    max-width: 500px;
+.how__cta-area {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 850px;
 }
-.how__image {
-    background: url('../images/process.jpeg') no-repeat right;
-    background-size: cover;
-    width: 600px;
-    height: 400px;
+.how__cta-area p {
+    font-size: 24px;
 }
-.how__process {
-    display: flex;
+.how__cta-area span {
+    font-weight: 700;
+}
+.how__button {
+    background: #67c067;
+    border: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    padding: 15px;
+    color: #fff;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.how__button-area button:hover {
+    background: #347e34;
 }
 /********************************************** ABOUT US *****/
 .about-us {
@@ -412,7 +432,6 @@ input {
     background: #67c067;
     border: 0;
     font-size: 20px;
-    /* font-weight: 700; */
     font-family: 'Roboto', sans-serif;
     border-radius: 4px;
     padding: 15px 15px;
@@ -521,6 +540,10 @@ input {
 .gallery__cta-text span {
     font-weight: 700;
 }
+/********************************************** SOCIAL CONTACT *****/
+.social-contact {
+    height: 400px;
+}
 /********************************************** LAST BLOCK *****/
 .last-block {
     background: #fff;
@@ -569,6 +592,16 @@ input {
     display: flex;
     justify-content: space-between;
 }
+
+
+
+
+
+
+
+
+
+
 
 /********************************************** POP UP *****/
 .bg {width: 100%; height: 100%; 
@@ -666,7 +699,6 @@ input {
 	-moz-border-radius: 10px; /* Firefox */
 	-webkit-border-radius: 10px; /* Safari, Chrome */
 	border-radius: 10px; /* CSS3 */
-	text-aAZAalign: left;
 }
 .pop_up2 p {
 	font-size: 13px;
