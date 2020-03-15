@@ -5,6 +5,15 @@
     } */
 }
 @media screen and (max-width: 1180px) {
+    .why__benefits-area {
+        flex-wrap: wrap;
+    }
+    .why__second-benefit {
+        margin-right: 0;
+    }
+    .why__third-benefit {
+        margin-top: 20px;
+    } 
     .about-us__card-area {
         flex-wrap: wrap;
     }
@@ -45,14 +54,12 @@
         font-size: 30px;
     }
     .why__benefits-area {
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
     }
     .why__first-benefit {
+        margin-bottom: 20px;
         margin-right: 0;
-        margin-bottom: 20px;
-    }
-    .why__second-benefit {
-        margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 760px) {
@@ -130,8 +137,22 @@
         width: 100%;
         height: 175px;
     }
+    .social-contact__title {
+        margin-bottom: 40px;
+    }
+    .social-contact__links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .social-contact__phone {
+        margin-bottom: 40px;
+    }
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
-/* @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .reviews__single-iframe {
         margin-right: 0;
     }
@@ -163,4 +184,4 @@
         width: 100%;
         height: 200px;
     }
-} */
+}

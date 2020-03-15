@@ -276,7 +276,7 @@ input {
     color: #fff;
 }
 .process__container {
-    padding: 40px 0;
+    padding: 40px 20px;
 }
 .process__main-area {
     max-width: 800px;
@@ -559,7 +559,7 @@ input {
     background: url('../images/icons/bg.jpg');
 }
 .social-contact__container {
-    padding: 80px 0;
+    padding: 80px 20px;
 }
 .social-contact__main-block {
     display: flex;
@@ -597,6 +597,9 @@ input {
     color: #fff;
     cursor: pointer;
     text-decoration: none;
+}
+.social-contact__flexible {
+    display: flex;
 }
 /********************************************** LAST BLOCK *****/
 .last-block {
