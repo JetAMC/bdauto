@@ -712,24 +712,3 @@ input {
 .pop-up .button2:hover {
 	background:#347e34;
 }
-
-
-
-
-
-.pop_up2 {
-	width: 340px;
-	padding: 20px;
-	height: 360px;
-	background: #fff;
-	font-size: 11px;
-	position: fixed; top: 50%; margin-top: -170px;
-	left: 50%; margin-left: -150px;
-	z-index: 2001;
-	-moz-border-radius: 10px; /* Firefox */
-	-webkit-border-radius: 10px; /* Safari, Chrome */
-	border-radius: 10px; /* CSS3 */
-}
-.pop_up2 p {
-	font-size: 13px;
-}

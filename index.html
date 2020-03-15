@@ -75,7 +75,7 @@ include('../1ncludes/functions.php');
                     <button type="submit" class="main-block__button">Оставить заявку</button>
                     <!--<p>Заявка вас не обязывает к покупке</p>-->
                     <div class="main-block__checkbox">
-                        <input type="checkbox" name="agree" required><p>Принимаю <a class="open2">условия</a> соглашения</p>
+                        <input type="checkbox" name="agree" required><p>Принимаю <a href="documents/likums.pdf" target="_blank">условия соглашения</a></p>
                     </div>
                 </form>
             </div>
@@ -482,54 +482,20 @@ include('../1ncludes/functions.php');
 
         <input class="button2" id="button" type="submit" name="submit" value="Оставить заявку">
     </form>
-    <p class="pop-up__confidential">Garantējam informācijas konfidencialitāti</p>
+    <p class="pop-up__confidential">Гарантируем конфиденциальность данных</p>
 </div>
-
-
-
-
-    <div class="pop_up2" style="display: none;">
-    <p>
-    Personas datu apstrādes noteikumi.
-    Šī mājas lapa www.bdauto.lv pieder SIA "Baltic Detailing Shop".
-    
-    Šajā mājas lapā ir iespēja brīvpratīgi nosūtīt pieteikuma formu, norādot sēkojošus datus:
-    - Vārdu, Uzvārdu
-    - Tālruņa numuru
-    - E-pastu.
-    
-    Jūsu personīgo datu apstrāde notiek saskaņā ar „Fizisko personu datu aizsardzības likuma" prasībām un citām esošajām normatīvajām prasībām. Šī informācija nepieciešama, lai izprastu Jūsu vajadzības, sazinātos ar Jums un sniegtu vislabāko apkalpošanu.
-    
-    Turklāt, apmeklējot šo mājaslapu, mēs varam ievākt tehnisko informāciju, kas neidentificē Jūs pēc vārda. Šāda veida informācija var sevī ietvert Jūsu IP adresi, mājaslapas, kuras esat apmeklējis, kā arī pārlūkprogrammu, kuru esat izmantojis mūsu mājaslapu apmeklēšanai. Šie tehniskie dati tiek izmantoti mūsu mājaslapu efektivitātes mērījumiem un tās paaugstināšanai, mūsu servera problēmu diagnostikai, mājaslapu administrēšanai un plūsmas pārskatīšanai.
-    
-    Klientu privātie dati pieejami tikai SIA "Baltic Detailing Shop" darbiniekiem. Klientu privātie dati netiek nodoti trešajām personām. SIA "Baltic Detailing Shop" klientu privātos datus trešajām personām var nodot tikai šādos gadījumos:
-    - ja to pieprasa esošā likumdošana;
-    - ja saņemts klienta tiešs pieprasījums.
-    
-    Saskaņā ar Latvijas Republikas „Fizisko personu datu aizsardzības likumu" un citām esošajām normatīvajām prasībām, klients ir tiesīgs iepazīties ar informāciju par to, kādiem mērķiem tiek izmantoti viņa personīgie dati. Jums ir tiesības pieprasīt jūsu personīgu datu labošanu vai izmainīšanu, tāpat pieprasīt personīgās informācijas apstrādes pārtraukšanu.
-    </p>
-    </div>
 <!-- LOADING JAVASCRIPT -->
 <script src="js/gallery.js"></script> 
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
 <script>
-    $(".open2").click( function() {
-        $(".bg").fadeIn(500);
-        $(".pop_up2").fadeIn(500);
-    });
-    $(".open").click( function() {
-       $(".bg").fadeIn(500);
-       $(".pop-up").fadeIn(500);
-    });
     $("#button1, #button2").click( function() {
        $(".bg").fadeIn(500);
        $(".pop-up").fadeIn(500);
     });
-    $(".bg, .close").click( function() {
+    $(".bg, .close, .open").click( function() {
        $(".bg").fadeOut(400);
        $(".pop-up").fadeOut(400);
-       $(".pop_up2").fadeOut(400);
     });
 </script>
 </body>
