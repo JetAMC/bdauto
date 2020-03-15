@@ -463,30 +463,31 @@ include('../1ncludes/functions.php');
         </div>
     </div>
 </div>
-<!-- POP UP -->
+<!-- POP UPS -->
 <div class="bg" style="display: none;">
-    a</div>
-    <div class="pop_up" style="display: none;">
-                <img src="images/close.png" class="close" />
-                
-                <h3>Aizpildiet pieteikuma formu</h3>
-                <p>Mūsu menedžeris atbildēs Jums uz visiem jautājumiem.
-                </p>
-    
-                <form id="forms1" class="forms" action="order.php" method="POST">
-                    <input type="text" id="Editbox1" name="Editbox1" placeholder="Имя:" value="" required>
-                    <input type="text" id="Editbox2" name="Editbox2" placeholder="Номер телефона:" value=""  required>
-                    <input type="text" id="Editbox3" name="Editbox3" placeholder="Марка и модель авто:" value=""  required>
+</div>
+<div class="pop-up bordered" style="display: none;">
+    <img src="images/icons/close.png" class="close" />
+    <h3>Заполните форму</h3>
+    <p class="pop-up__small-title">Наш вежливый консультант свяжется с вами в ближайшее время</p>
+    <form id="forms1" class="forms" action="order.php" method="POST">
+        <input type="text" id="Editbox1" name="Editbox1" placeholder="Имя:" value="" required>
+        <input type="text" id="Editbox2" name="Editbox2" placeholder="Номер телефона:" value=""  required>
+        <input type="text" id="Editbox3" name="Editbox3" placeholder="Марка и модель авто:" value=""  required>
 
-                    <input type="hidden" id="Editbox4" name="Editbox4" value="<?php echo $utm_source; ?>">
-                    <input type="hidden" id="Editbox5" name="Editbox5" value="<?php echo $utm_medium; ?>">
-                    <input type="hidden" id="Editbox6" name="Editbox6" value="<?php echo $utm_campaign; ?>">
-                    <input type="hidden" id="Editbox7" name="Editbox7" value="Free legal advice">
+        <input type="hidden" id="Editbox4" name="Editbox4" value="<?php echo $utm_source; ?>">
+        <input type="hidden" id="Editbox5" name="Editbox5" value="<?php echo $utm_medium; ?>">
+        <input type="hidden" id="Editbox6" name="Editbox6" value="<?php echo $utm_campaign; ?>">
+        <input type="hidden" id="Editbox7" name="Editbox7" value="Free legal advice">
 
-                    <input class="button2" id="button" type="submit" name="submit" value="Schedule an appointment">
-                </form>
-                <p style="margin: 0; padding: 0; font-size: 12px;">Garantējam informācijas konfidencialitāti</p>
-    </div>
+        <input class="button2" id="button" type="submit" name="submit" value="Оставить заявку">
+    </form>
+    <p class="pop-up__confidential">Garantējam informācijas konfidencialitāti</p>
+</div>
+
+
+
+
     <div class="pop_up2" style="display: none;">
     <p>
     Personas datu apstrādes noteikumi.
@@ -515,19 +516,19 @@ include('../1ncludes/functions.php');
 <script>
     $(".open2").click( function() {
         $(".bg").fadeIn(500);
-        $(".pop_up2").fadeIn(800);
+        $(".pop_up2").fadeIn(500);
     });
     $(".open").click( function() {
        $(".bg").fadeIn(500);
-       $(".pop_up").fadeIn(800);
+       $(".pop-up").fadeIn(500);
     });
     $("#button1, #button2").click( function() {
        $(".bg").fadeIn(500);
-       $(".pop_up").fadeIn(800);
+       $(".pop-up").fadeIn(500);
     });
     $(".bg, .close").click( function() {
-       $(".bg").fadeOut(700);
-       $(".pop_up").fadeOut(400);
+       $(".bg").fadeOut(400);
+       $(".pop-up").fadeOut(400);
        $(".pop_up2").fadeOut(400);
     });
 </script>
