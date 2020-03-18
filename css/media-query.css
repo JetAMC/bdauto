@@ -33,6 +33,9 @@
     .main-block__result {
         margin-bottom: 40px;
     }
+    .reviews__signle-review {
+        margin-right: 0;
+    }
 }
 @media screen and (max-width: 860px) {
     .header__address {
@@ -104,18 +107,11 @@
     .how__container {
         padding: 40px 20px;
     }
-    .reviews__single-iframe {
-        margin-right: 0;
+    .reviews__review-info p {
+        font-size: 13px;
     }
-    .reviews__iframes {
-        display: block;
-        margin-bottom: 40px;
-    }
-    .reviews__single-iframe iframe {
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 175px;
+    .reviews__review-image img {
+        width: 30px;
     }
     .social-contact__title {
         margin-bottom: 40px;
@@ -130,38 +126,5 @@
     .footer__container {
         flex-direction: column;
         align-items: center;
-    }
-}
-@media screen and (max-width: 320px) {
-    .reviews__single-iframe {
-        margin-right: 0;
-    }
-    .reviews__iframes {
-        display: block;
-        margin-bottom: 40px;
-    }
-    .reviews__single-iframe .reviews__first {
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 330px;
-    }
-    .reviews__single-iframe .reviews__second {
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 260px;
-    }
-    .reviews__single-iframe .reviews__third {
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 180px;
-    }
-    .reviews__single-iframe .reviews__fourth {
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 200px;
     }
 }
