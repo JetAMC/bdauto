@@ -98,22 +98,8 @@
     }
 }
 @media screen and (max-width: 530px) {
-    .header {
-        padding: 20px 0px 0px 0px;
-    }
-    .header__container {
-        flex-direction: column;
-    }
-    .header__contact {
-        flex-direction: column;
-    }
-    .header__logo {
-        display: flex;
-        margin-bottom: 20px;
-    }
-    .header__contact div {
-        margin-left: 0;
-        margin-bottom: 20px;
+    .header__phone-number {
+        display: none;
     }
     .how__container {
         padding: 40px 20px;
