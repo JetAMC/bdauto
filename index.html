@@ -486,7 +486,6 @@ include('../1ncludes/functions.php');
 </div>
 <!-- LOADING JAVASCRIPT -->
 <script src="js/gallery.js"></script> 
-<script src="js/jquery.mobile.custom.min.js"></script> 
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
 <script>
@@ -498,14 +497,6 @@ include('../1ncludes/functions.php');
        $(".bg").fadeOut(400);
        $(".pop-up").fadeOut(400);
     });
-    $(document).ready(function() {  
-        $("#gallery__myModal").swiperight(function() {  
-            $("#gallery__myModal").carousel('prev');  
-            });  
-        $("#gallery__myModal").swipeleft(function() {  
-            $("#gallery__myModal").carousel('next');  
-        });  
-    });  
 </script>
 </body>
 
