@@ -622,44 +622,6 @@ input {
 .social-contact__flexible {
     display: flex;
 }
-/********************************************** LAST BLOCK *****/
-.last-block {
-    background: #fff;
-    position: relative;
-}
-.last-block a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-}
-.last-block p {
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 22px;
-    font-weight: 700;
-}
-.last-block__contact {
-    border: 1px solid #000;
-    position: absolute;
-    top: 40px;
-    /* left: 20%; */
-    background: rgba(0,0,0, 0.8);
-    padding: 20px;
-    color: #fff;
-}
-.last-block__contact img {
-    width: 30px;
-    margin-right: 10px;
-}
-.last-block__contact span {
-    font-size: 18px;
-    display: block;
-}
-.contacts {
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-}
 /********************************************** FOOTER *****/
 .footer {
     background: #1e1e1e;
