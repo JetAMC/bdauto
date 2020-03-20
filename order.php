@@ -24,9 +24,8 @@ mail('info@bdauto.lv', 'Заявка с Landing Page полировка LV', $na
 <head>
 	<title>Lukturu pulēšana | SIA Baltic Detailing</title>
     <meta charset=utf-8>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-query.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet"> 
