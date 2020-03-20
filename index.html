@@ -68,12 +68,11 @@ include('../1ncludes/functions.php');
             <div class="main-block__form-area bordered">
                 <h3>Хотите такой же результат ?</h3>
                 <span>Оставьте заявку и мы сообщим время когда вы сможете приехать</span>
-                <form action="">
+                <form action="order_ru.php" method="POST">
                     <input type="text" name="name" placeholder="Имя" required>
                     <input type="text" name="phone-number" placeholder="Номер телефона" required>
                     <input type="text" name="car-model" placeholder="Марка и модель авто" required>
                     <button type="submit" class="main-block__button">Оставить заявку</button>
-                    <!--<p>Заявка вас не обязывает к покупке</p>-->
                     <div class="main-block__checkbox">
                         <input type="checkbox" name="agree" required><p>Принимаю <a href="documents/likums.pdf" target="_blank">условия соглашения</a></p>
                     </div>
@@ -229,7 +228,7 @@ include('../1ncludes/functions.php');
                         <h3>Брендовые материалы</h3>
                     </div>
                     <div class="about-us__small-text">
-                        <p>Мы используем только качественную продукцию. Полироль, нано-шампунь, блеск, гель, воск, губки - все от немецкого бренда Koch Chemie&reg;</p>
+                        <p>Мы используем только качественную продукцию. Работаем с самыми известными брендами: Koch Chemie, Makita, Nanolex, Sonax, Buff and Shine и т.д.</p>
                     </div>
                 </div>
                 <div class="about-us__card">
@@ -535,7 +534,7 @@ include('../1ncludes/functions.php');
     <img alt="" src="images/icons/close.png" class="close" />
     <h3>Заполните форму</h3>
     <p class="pop-up__small-title">Наш вежливый консультант свяжется с вами в ближайшее время</p>
-    <form id="forms1" class="forms" action="order_ru.php" method="POST">
+    <form action="order_ru.php" method="POST">
         <input type="text" id="Editbox1" name="Editbox1" placeholder="Имя:" value="" required>
         <input type="text" id="Editbox2" name="Editbox2" placeholder="Номер телефона:" value=""  required>
         <input type="text" id="Editbox3" name="Editbox3" placeholder="Марка и модель авто:" value=""  required>
