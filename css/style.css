@@ -695,3 +695,23 @@ input {
 .pop-up .button2:hover {
 	background:#347e34;
 }
+/********************************************** THANK YOU *****/
+.thank-you {
+    height: 500px;
+    background: url('../images/main-bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.thank-you__container {
+    padding-top: 40px;
+}
+.thank-you__text-area {
+    color: #fff;
+    text-align: center;
+}
+.thank-you__text-area p {
+    margin: 0;
+    font-size: 35px;
+}
+.thank-you__final-words h1 {
+    font-size: 45px;
+}
