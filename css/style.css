@@ -88,6 +88,16 @@ input {
     display: flex;
     align-items: center;
 }
+.header__phone-number-mobile {
+    display: none;
+}
+.header__email-mobile {
+    display: none;
+}
+.header__email-mobile i {
+    color: #67c067;
+    font-size: 30px;
+}
 /********************************************** MAIN BLOCK *****/
 .main-block {
     background: url('../images/main-bg.jpg') no-repeat center;

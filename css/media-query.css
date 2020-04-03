@@ -98,8 +98,19 @@
     }
 }
 @media screen and (max-width: 530px) {
+    .header__contact div {
+        margin-left: 15px;
+    }
     .header__phone-number {
         display: none;
+    }
+    .header__phone-number-mobile {
+        display: block;
+        padding-top: 4px;
+    }
+    .header__email-mobile {
+        display: block;
+        padding-top: 4px;
     }
     .how__container {
         padding: 40px 20px;
