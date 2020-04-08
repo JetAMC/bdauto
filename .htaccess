@@ -1,3 +1,1 @@
 RewriteEngine On
-Redirect 301 http://www.bdauto.lv/lukturi http://bdauto.lv/lukturi
-Redirect 301 http://bdauto.lv/lukturi https://bdauto.lv/lukturi
