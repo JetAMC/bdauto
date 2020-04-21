@@ -11,7 +11,6 @@ body {
 }
 .container {
     max-width: 1180px;
-    padding: 0 20px;
     margin: 0 auto;
 }
 h1, h3 {
@@ -40,7 +39,7 @@ input {
     height: 40px;
 }
 .bordered {
-    border: 7px solid #67c067;
+    border: 3px solid #67c067;
     border-radius: 10px;
 }
 /********************************************** HEADER *****/
@@ -241,7 +240,7 @@ input {
     padding: 20px;
 }
 .why__line {
-    border: 3px solid #67c067;
+    border-bottom: 3px solid #67c067;
     width: 40%;
 }
 /*** FIRST BENEFIT ***/
@@ -286,7 +285,7 @@ input {
     color: #fff;
 }
 .process__container {
-    padding: 40px 20px;
+    padding: 40px 10px;
 }
 .process__main-area {
     max-width: 800px;
@@ -306,7 +305,7 @@ input {
     color: #67c067;
     height: 85px;
     padding-right: 10px;
-    border-right: 7px solid #67c067;
+    border-right: 3px solid #67c067;
 }
 .process__numbers p {
     margin: 0;
@@ -398,7 +397,7 @@ input {
 }
 .about-us__info h3 {
     font-size: 23px;
-    border-bottom: 4px solid #67c067;
+    border-bottom: 3px solid #67c067;
     padding-bottom: 10px;
     width: 60%;
 }
@@ -458,7 +457,7 @@ input {
     background-size: cover;
 }
 .gallery__container {
-    padding: 40px 0;
+    padding: 40px 10px;
 }
 .gallery__title h2 {
     color: #fff;
@@ -493,7 +492,7 @@ input {
     justify-content: center;
 }
 .gallery__column {
-    width: 295px;
+    width: 285px;
     padding: 0 8px;
     margin-bottom: 15px;
 }
