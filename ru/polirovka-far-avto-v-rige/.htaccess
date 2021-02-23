@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{THE_REQUEST} // 
+RewriteRule ^.*$ $0 [R=302,L,NE]
+RewriteCond %{THE_REQUEST} ^.*/index\.php 
+RewriteRule ^(.*)index.php$ /ru/polirovka-far-avto-v-rige [R=301,L] 
+

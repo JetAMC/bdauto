@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{THE_REQUEST} // 
+RewriteRule ^.*$ $0 [R=302,L,NE]
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{REQUEST_URI} auto-lukturu-pulesana-riga
+RewriteRule ^(.*)$ https://www.bdauto.lv/auto-lukturu-pulesana-riga/$1 [R,L]
+RewriteCond %{THE_REQUEST} ^.*/index\.php 
+RewriteRule ^(.*)index.php$ /auto-lukturu-pulesana-riga [R=301,L] 
